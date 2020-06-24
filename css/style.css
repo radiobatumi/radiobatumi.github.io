@@ -35,13 +35,17 @@ body {
 	color:#969696;
 	font-size:16px;
 	overflow-x:hidden;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Cabin', 'BPG Nateli', sans-serif;
+}
+
+.georgian {
+    font-family: 'BPG Nateli', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	font-weight:700;
 	color:#151515;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', 'BPG Nateli', sans-serif;
 }
 
 h1 {
@@ -469,7 +473,7 @@ textarea.input {
 \*------------------------------------*/
 .banner-area {
 	position:relative;
-	padding-bottom:40px;
+	padding-bottom:10px;
 }
 
 .banner-area .home-wrapper {
@@ -594,7 +598,7 @@ textarea.input {
 }
 
 .menu-nav li a {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', 'BPG Nateli' sans-serif;
 	display: block;
 	padding: 30px;
 }
@@ -604,27 +608,29 @@ textarea.input {
 	background-color:#f36700;
 }
 
+/*
 .menu-nav li.active:before , .menu-nav li.active:after {
 	content:"";
 	width: 0;
 	height: 0;
 	position:absolute;
-	bottom:-19px;
+	top:-19px;
 	border-style: solid;
 	z-index:1;
 }
 
 .menu-nav li.active:before {
 	left:0;
-	border-width: 20px 52px 0 0;
+	border-width: 20px 48px 0 0;
 	border-color: #f36500 transparent transparent;
 }
 
 .menu-nav li.active:after {
 	right:0;
-	border-width: 0 52px 20px 0;
+	border-width: 0 48px 20px 0;
 	border-color: transparent #f36500 transparent ;
 }
+*/
 
 /* --- menu content --- */
 #menu-content {
@@ -655,7 +661,7 @@ textarea.input {
 
 .single-dish .name {
 	display: inline-block;
-	font-family:'Cabin', sans-serif;
+	font-family:'Cabin', 'BPG Nateli', sans-serif;
 	background-color: #FFF;
 	padding-right: 10px;
 	font-weight:400;
@@ -1112,7 +1118,7 @@ textarea.input {
 	}
     
     .menu-nav li a {
-        padding:10px 8px 10px 8px;
+        padding:10px 6px 10px 6px;
     }
 
 	/* --- galery --- */
